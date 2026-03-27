@@ -1,21 +1,21 @@
-# 🏦 Banking Management System
+#  Banking Management System
 
 A full-stack Banking Management System built with **FastAPI** (Backend) and **Streamlit** (Frontend).
 The application allows you to create, view, update, and delete bank accounts seamlessly.
 
-## 🚀 Features
+##  Features
 
 - **Create Account:** Add new bank accounts with Name, Email, and Initial Balance.
 - **View Accounts:** Fetch and display all existing accounts from the database.
 - **Update Account:** Modify the Name and Email of an existing account.
 - **Delete Account:** Remove an account securely using its ID.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL (Psycopg2), Uvicorn
 - **Frontend:** Python, Streamlit, Requests
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -59,7 +59,7 @@ cd Banking-Management-System-FastApi-
    ```
    *The frontend will open in your browser, typically at `http://localhost:8501`.*
 
-## 📝 API Endpoints
+##  API Endpoints
 
 - `POST /accounts` - Create a new account
 - `GET /accounts` - Retrieve all accounts
@@ -69,4 +69,4 @@ cd Banking-Management-System-FastApi-
 
 ---
 
-Happy banking! 🪙
+Happy banking!
